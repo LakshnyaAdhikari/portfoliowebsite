@@ -14,8 +14,6 @@ Built with **HTML, CSS, and JavaScript**, and hosted via **GitHub Pages**.
 - CSS3  
 - JavaScript  
 
-## 🔗 Live Demo
-[View Portfolio](https://LakshnyaAdhikari.github.io/)
 
 ## 📬 Contact
 - **Email:** [lakshnyaadhikari1@gmail.com](mailto:lakshnyaadhikari1@gmail.com)  
