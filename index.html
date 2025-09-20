@@ -5,27 +5,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lakshnya | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Lakshnya</h1>
-    <p>First-year CSE student | Web & Python enthusiast</p>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Lakshnya</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>Hi, I'm <span class="highlight">Lakshnya Adhikari</span></h1>
+    <p>Second-year CSE Student | Web Developer | 2x Hackathon Winner</p>
+    <a href="Lakshnya_Adhikari_Resume.pdf" target="_blank" class="btn">📄 View Resume</a>
   </header>
+
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m passionate about tech, currently exploring Python, HTML/CSS, and JavaScript. Love building fun, useful things.</p>
+    <p>
+      I’m passionate about building impactful tech solutions. Skilled in C, Python, and Kotlin,
+      with hands-on experience in web and Android development. I enjoy solving real-world
+      problems through innovation, teamwork, and design.
+    </p>
   </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div> C</div>
+      <div> Python</div>
+      <div> Kotlin</div>
+      <div> HTML/CSS</div>
+      <div> Git & GitHub</div>
+      <div> Figma</div>
+      <div> Android Studio</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
+    <div class="project-card">
+      <h3>CrisisMesh</h3>
+      <p>A real-time platform to connect disaster victims with responders using Firebase.</p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Inkspire</h3>
+      <p>Android app for students to blog, share opinions, and connect via Kotlin + Firebase.</p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Nivarak</h3>
+      <p>Post-rehab recovery app with wearable integration for real-time monitoring.</p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Achievements</h2>
     <ul>
-      <li>🧮 Calculator</li>
-      <li>🌐 Weather App</li>
-      <li>⌨️ Typing Test Game</li>
+      <li> 2nd Place – Hack4Health Hackathon (₹50,000 prize)</li>
+      <li> 3rd Prize – InnovEarth Ideathon, NSUT(₹3,000 prize)</li>
+      <li> Top 10 – Finivesta x ECELL IIIT-Delhi</li>
+      <li> Top 10 – Delhi Industrial Ideathon</li>
+      <li> Selected – GSSoC Campus Ambassador & Contributor</li>
     </ul>
   </section>
+
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: lakshnya@email.com</p>
+    <p>📧 <a href="mailto:lakshnyaadhikari1@gmail.com">lakshnyaadhikari1@gmail.com</a></p>
+    <p>🌐 <a href="https://github.com/LakshnyaAdhikari" target="_blank">GitHub</a> | 
+       <a href="https://linkedin.com/in/lakshnya-adhikari-a96117320" target="_blank">LinkedIn</a></p>
   </section>
+
+  <footer>
+    <p>© 2025 Lakshnya Adhikari</p>
+  </footer>
 </body>
 </html>
