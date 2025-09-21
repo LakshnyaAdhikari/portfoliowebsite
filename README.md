@@ -3,11 +3,12 @@
 My personal portfolio website showcasing projects, skills, achievements, and resume.  
 Built with **HTML, CSS, and JavaScript**, and hosted via **GitHub Pages**.
 
+**LIVE LINK** https://lakshnyaadhikari.github.io/portfoliowebsite/
+
 ## 🚀 Features
 - Responsive design (mobile-friendly)  
 - Dark/Light theme toggle  
 - Sections: About, Skills, Projects, Achievements, Contact  
-- Resume download link  
 
 ## 📂 Tech Stack
 - HTML5  
