@@ -8,14 +8,15 @@
   <script defer src="script.js"></script>
 </head>
 <body>
+
   <!-- Navbar -->
   <nav>
     <div class="logo">Lakshnya</div>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="theme-toggle">🌙</button>
@@ -24,51 +25,67 @@
   <!-- Hero -->
   <header class="hero">
     <h1>Hi, I'm <span class="highlight">Lakshnya Adhikari</span></h1>
-    <p>Second-year CSE Student | Web Developer | 2x Hackathon Winner</p>
-    <a href="https://docs.google.com/document/d/1aRDZw2tOioeHmkl-68FHHdE-V7io7eUnr6fSzAE0dYw/view?usp=sharing" target="_blank" class="btn">📄 View Resume</a>
+    <p>Second-year CSE Student building AI-driven, real-time web systems</p>
+    <a href="https://docs.google.com/document/d/1aRDZw2tOioeHmkl-68FHHdE-V7io7eUnr6fSzAE0dYw/view"
+       target="_blank" class="btn">📄 View Resume</a>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m passionate about building impactful tech solutions. Skilled in C, Python, and Kotlin,
-      with hands-on experience in web and Android development. I enjoy solving real-world
-      problems through innovation, teamwork, and design.
-    </p>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Sportify</h3>
+      <p>
+        AI-driven athlete screening platform using CNNs and reinforcement learning.
+        Enables video-based evaluation, wearable data analysis, and personalized
+        performance insights for grassroots athletes.
+      </p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>LeakWatch</h3>
+      <p>
+        Real-time browser data-leak detection platform that monitors clipboard activity,
+        analyzes outgoing requests, and blocks suspicious behavior through a live dashboard.
+      </p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>CrisisMesh</h3>
+      <p>
+        Real-time humanitarian coordination platform connecting disaster victims with
+        responders using Firebase and structured data views.
+      </p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Nivarak</h3>
+      <p>
+        Post-rehab recovery app integrating wearable health data with real-time monitoring
+        and community support using React and Python backend.
+      </p>
+      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+    </div>
   </section>
 
   <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
-      <div> C</div>
-      <div> Python</div>
-      <div> Kotlin</div>
-      <div> HTML/CSS</div>
-      <div> Git & GitHub</div>
-      <div> Figma</div>
-      <div> Android Studio</div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>CrisisMesh</h3>
-      <p>A real-time platform to connect disaster victims with responders using Firebase.</p>
-      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>Inkspire</h3>
-      <p>Android app for students to blog, share opinions, and connect via Kotlin + Firebase.</p>
-      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>Nivarak</h3>
-      <p>Post-rehab recovery app with wearable integration for real-time monitoring.</p>
-      <a href="https://github.com/LakshnyaAdhikari" target="_blank">🔗 GitHub</a>
+      <div>C / C++</div>
+      <div>Python</div>
+      <div>JavaScript</div>
+      <div>React</div>
+      <div>Node.js</div>
+      <div>Firebase</div>
+      <div>Machine Learning (CNNs)</div>
+      <div>Computer Vision</div>
+      <div>Git & GitHub</div>
+      <div>Figma</div>
     </div>
   </section>
 
@@ -76,24 +93,38 @@
   <section id="achievements">
     <h2>Achievements</h2>
     <ul>
-      <li> 2nd Place – Hack4Health Hackathon (₹50,000 prize)</li>
-      <li> 3rd Prize – InnovEarth Ideathon, NSUT(₹3,000 prize)</li>
-      <li> Top 10 – Finivesta x ECELL IIIT-Delhi</li>
-      <li> Top 10 – Delhi Industrial Ideathon</li>
-      <li> Selected – GSSoC Campus Ambassador & Contributor</li>
+      <li>🥈 2nd Place – Hack4Health Hackathon (₹50,000)</li>
+      <li>🥉 3rd Prize – InnovEarth Ideathon, NSUT</li>
+      <li>Top 10 – Finivesta × E-Cell IIIT Delhi Pitch Desk</li>
+      <li>Top 10 – Delhi Industrial Ideathon</li>
+      <li>Selected – GSSoC Campus Ambassador & Contributor (2025)</li>
     </ul>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I build real-time, AI-driven, and scalable tech solutions with a focus on social impact.
+      My work spans machine learning systems, browser security tools, and humanitarian
+      platforms — from ML-based athlete screening to disaster coordination and data-leak
+      detection systems. I enjoy taking ideas from concept to execution.
+    </p>
   </section>
 
   <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
     <p>📧 <a href="mailto:lakshnyaadhikari1@gmail.com">lakshnyaadhikari1@gmail.com</a></p>
-    <p>🌐 <a href="https://github.com/LakshnyaAdhikari" target="_blank">GitHub</a> | 
-       <a href="https://linkedin.com/in/lakshnya-adhikari-a96117320" target="_blank">LinkedIn</a></p>
+    <p>
+      🌐 <a href="https://github.com/LakshnyaAdhikari" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/lakshnya-adhikari-a96117320" target="_blank">LinkedIn</a>
+    </p>
   </section>
 
   <footer>
     <p>© 2025 Lakshnya Adhikari</p>
   </footer>
+
 </body>
 </html>
